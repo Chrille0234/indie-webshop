@@ -1,0 +1,17 @@
+/* ekstern */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+/* intern */
+@import url("css/siteheader.css");
+
+
+body, html {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: rgb(122, 122, 123);
+}
+*{
+    box-sizing: border-box;
+    color: white
+}
