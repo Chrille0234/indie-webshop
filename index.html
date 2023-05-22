@@ -15,17 +15,77 @@
 </head>
 <body>
     <header class="siteHeader">
-        <p class="siteHeader__logo">Lipsum</p>
+        <p class="siteHeader__logo">Liptum</p>
 
-        <span class="material-symbols-outlined primaryNav__burger">menu</span>
+        <span class="material-symbols-outlined primaryNav__burger">Menu</span>
 
         <nav class="primaryNav">
             <ul>
-                <li><a href="#">Se alle produkter</a></li>
+                <li><a href="./allproducts.html">Se alle produkter</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
         </nav>
     </header>
+
+    <main class="siteMain">
+        <section class="newProduct">
+            <div>
+                <h1 class="newProduct__title">Nyt produkt</h1>
+                <p class="newProduct__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, et accusamus? Sint nostrum nesciunt repellat culpa sit alias odit ad ipsam! Corrupti, nostrum tempore ad eius cumque asperiores libero ea, est numquam molestias doloremque quod. Et totam recusandae voluptatibus odit inventore dolor repellendus, iste animi exercitationem nesciunt, iusto a facere.</p>
+            </div>
+            <img class="newProduct__image" src="https://via.placeholder.com/300x300" alt="placeholder image">
+        </section>
+        <h2>Se vores andre produkter</h2>
+        <section class="otherProducts">
+            <div class="productCard">
+                <img class="productCard__image" src="https://via.placeholder.com/300x200" alt="placeholder image">
+                <h3 class="productCard__title productCard__text">Lorem ipsum</h3>
+                <p class="productCard__price productCard__text">500 kr.</p>
+            </div>
+
+            <div class="productCard">
+                <img class="productCard__image" src="https://via.placeholder.com/300x200" alt="placeholder image">
+                <h3 class="productCard__title productCard__text">Lorem ipsum</h3>
+                <p class="productCard__price productCard__text">500 kr.</p>
+            </div>
+
+            <div class="productCard">
+                <img class="productCard__image" src="https://via.placeholder.com/300x200" alt="placeholder image">
+                <h3 class="productCard__title productCard__text">Lorem ipsum</h3>
+                <p class="productCard__price productCard__text">500 kr.</p>
+            </div>
+
+            <div class="productCard">
+                <img class="productCard__image" src="https://via.placeholder.com/300x200" alt="placeholder image">
+                <h3 class="productCard__title productCard__text">Lorem ipsum</h3>
+                <p class="productCard__price productCard__text">500 kr.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="siteFooter">
+        <div>
+            <h3>Kontakt</h3>
+            <p>+45 1234 5678</p>
+            <p>email@domæne.dk</p>
+        </div>
+        <div>
+            <h3>Addresse og CVR</h3>
+            <p>Addresse, 2540</p>
+            <p>CVR: 17237977</p>
+        </div>
+        <div>
+            <form action="" class="siteFooter__form">
+                <h3>tilmeld nyhedsbrev</h3>
+                <label class="siteFooter_formLabel">email<input type="email" class="siteFooter_formInput"></label>
+                <button class="siteFooter__formSubmit">Tilmeld</button>
+            </form>
+        </div>
+    </footer>
+
+
+
+    <script src="javascript/primaryNav.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+.siteFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+
+
+    border-top: 1px solid white;
+    background-color: black;
+}
+.siteFooter_formLabel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    font-size: 1rem;
+}
+
+.siteFooter_formInput{
+    color: black;
+    font-size: 1.2rem;
+}
+.siteFooter__formSubmit{
+    color: black;
+    font-size: 1.2rem;
+}
