@@ -1,0 +1,15 @@
+.listSection__items__container{
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.listSection__items{
+    display: flex;
+}
+.listSection .productCard{
+    width: 250px;
+}
+.listSection .productCard h3{
+    font-size: 1.3rem
+}

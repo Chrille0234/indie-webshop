@@ -7,6 +7,7 @@
 @import url("css/index/newproduct.css");
 @import url("css/productcard.css");
 @import url("css/sitefooter.css");
+@import url("css/lists.css");
 
 
 body, html {
@@ -17,4 +18,7 @@ body, html {
 *{
     box-sizing: border-box;
     color: white;
+}
+h1, h2, h3{
+    font-family: 'Source Sans Pro', sans-serif;
 }
